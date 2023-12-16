@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <title>About us</title>
+</head>
+
+<body>
+  <!-- Start Header -->
+  <section class="sub-header" id="home">
+    <nav>
+      <a href="#"><img src="https://www.cu.edu.ph/wp-content/uploads/2020/05/10.-Capitol-University-e1590653731107.png" alt=""></a>
+      <div class="nav-links" id="navlinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="course.html">Course</a></li>
+          <li><a href="location.html">Location</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>About Us</h1>
+  </section>
+  <!-- End Header -->
+  <!-- S About Us Contant -->
+  <section class="about-us">
+    <div class="row">
+      <div class="about-col">
+        <h1>We are the world's largest university</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, eligendi unde rerum accusantium, asperiores
+          quasi, laudantium omnis iure animi veritatis incidunt vel! Recusandae, sit tenetur. Lorem, ipsum dolor sit
+          amet consectetur adipisicing elit. Incidunt pariatur quod minus, nemo earum nulla totam aliquam modi ullam
+          recusandae doloribus iusto quam nisi cupiditate sequi, culpa dolore veritatis fuga.</p>
+        <a href="" class="btn-1 red-btn">EXPLORE NOW</a>
+      </div>
+      <div class="about-col">
+        <img src="imgs/AboutBanner.jpg" alt="">
+      </div>
+    </div>
+
+
+
+  </section>
+
+
+  <!-- E About Us Contant -->
+
+
+  <!-- Start Footer -->
+  <footer>
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque exercitationem, <br /> voluptas accusamus rerum officia
+      impedit alias sint iste aut hic.</p>
+      <div class="icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+      <p>Made With  <i class="fas fa-heart"></i> by Glen Angelo Olaso</p>
+  </footer>
+  <!-- End Footer -->
+  <div class="up">
+    <a href="#home">
+      <i class="fas fa-angle-up"></i>
+    </a>
+  </div>
+
+  <!-- Javascript -->
+  <script>
+    var navlinks = document.getElementById("navlinks");
+    function showMenu() {
+      navlinks.style.right = "0"
+    }
+    function hideMenu() {
+      navlinks.style.right = "-200px"
+    }
+  </script>
+
+
+</body>
+
+</html>
